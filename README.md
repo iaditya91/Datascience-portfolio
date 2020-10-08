@@ -26,7 +26,7 @@ Tools: keras, scikit-learn
 * **ML with K Nearest Neighbours:** Using KNN  model is used to predict the survival of the passengers in the Titanic ship, while choosing the best value for K using the elbow method.
 * **ML with Navie Bayes Classifier:** Using Naive Bayes Classifier to classify messages to spam and no-spam.
 * **ML with Hierarchical Clustering:** Using Agglomerative Hierarchical Clustering approach to cluster the customers based on their Annual Income and Expenditure.
-* **ML with K-means Clustering:** Using K-means Clustering create clusters the customers based on thier features Annual Expenditure and Spending scores.
+* **ML with K-means Clustering:** Using K-means Clustering to clusters the customers based on thier Annual Expenditure and Spending scores.
 * **ML with Decision Tree vs Random Forest Tree:** Using Decision Tree vs Random Forest Tree classifier to compare the accuracy of ML model in the use case of Kyphosis Disease Prediction.
 <br>
 
