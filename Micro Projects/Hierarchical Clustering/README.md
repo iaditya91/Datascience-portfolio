@@ -1,5 +1,6 @@
 # Customer-Expenditure<br>
-**Overview**: The customers are clustered based on their annual income and spending score. This helps in understaning the customers like who are the target customers so that the sense can be given to marketing team and plan the strategy accordingly.
+**Overview**:<br>
+The customers are clustered based on their annual income and spending score. This helps in understaning the customers like who are the target customers so that the sense can be given to marketing team and plan the strategy accordingly.
 
 **Summary**
 1. Agglomarative Hierarchical Clustering Algorithm is used.
