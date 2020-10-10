@@ -3,7 +3,7 @@ Repository containing portfolio of data science projects completed by me for sel
 
 ## Contents:
 ### Machine Learning
-* **Reinforcement Learning:** Training an agent to play mountaincar game: Creating an Q-Learning driving agent that will go to the destination with less back and front moves in mountain car game.
+* **Reinforcement Learning:** Training an agent to play mountaincar game: Creating an Q-Learning driving agent that will make car go to the destination with less front and back movements by using certain parameters such as velocity and acceleration in mountain car game.
 <br>
 
 ### Deep Learning
