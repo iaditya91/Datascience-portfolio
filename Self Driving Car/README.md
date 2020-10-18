@@ -1,6 +1,6 @@
 # Self Driving Car
 ## Problem Definition
-To build the minimal version of a self-driving car, where car predicts the steering angle itself using front camera. Here the car contains the front view camera. The model captures the video frames from the front view camera and predicts the steering angle the car should rotate.
+To build the minimal version of a self-driving car, where car predicts the steering angle itself using front camera. Here the car contains the front view camera. The model captures the video frames from the front view camera and predicts the steering angle the car should rotate. The model uses **Convolutional Neural Network** for the prediction of steering angle.
 
 ## How to Run
 Download the repository 
