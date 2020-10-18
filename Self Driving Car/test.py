@@ -6,15 +6,15 @@ from subprocess import call
 import os
 
 
-windows = False
+windows_os = False
 if os.name == 'nt':
-    windows = True
+    windows_os = True
 
 sess = tf.InteractiveSession()
 saver = tf.train.Saver()
-saver.restore(sess, "save/model.ckpt")
+saver.restore(sess, "output/self_driving_model.ckpt")
 
-img = cv2.imread('steering_wheel_image.jpg',0)
+img = cv2.imread('steering.jpg',0)
 rows,cols = img.shape
 
 smoothed_angle = 0
@@ -24,7 +24,7 @@ while(cv2.waitKey(10) != ord('q')):
     ret, frame = cap.read()
     image = cv2.resize(frame, (200, 66)) / 255.0
     degrees = model.y.eval(feed_dict={model.x: [image], model.keep_prob: 1.0})[0][0] * 180 / 3.14159265
-    if not windows:
+    if not windows_os:
         call("clear")
     print("Predicted steering angle: " + str(degrees) + " degrees")
     cv2.imshow('frame', frame)
