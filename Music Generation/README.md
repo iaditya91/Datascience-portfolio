@@ -28,9 +28,7 @@ You need to have installed following softwares and libraries in your machine bef
 ### Libraries:<br>
 1. **Keras:** It is a deep learning library.<br>
 pip install Keras<br>
-2. **OpenCV:** It is used for processing images.<br>
-pip install opencv-python<br>
-3. Other libraries such as pandas, matplotlib, numpy and scipy.<br>
+2. Other libraries such as pandas, matplotlib, numpy and scipy.<br>
 
 ## Authors
 • Aditya
